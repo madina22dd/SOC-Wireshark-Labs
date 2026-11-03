@@ -69,7 +69,7 @@ The Kali Linux virtual machine was connected to the configured NAT Network.
 ![Kali Linux VM](Screenshot%202026-11-03%20021134.png)
 
 ### 2. Kali Linux Virtual Machine
-![Kali Linux VM](screenshots/kali-vm.png)
+![VirtualBox Setup](Screenshot%202026-11-03%20021016.png)
 
 ### 3. Kali Linux Desktop
 ![Kali Linux Desktop](screenshots/kali-desktop.png)
