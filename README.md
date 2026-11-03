@@ -107,3 +107,13 @@ I gained practical experience with virtualization, network configuration, and pr
 - Practice network traffic analysis using Wireshark.
 - Perform hands-on networking exercises.
 - Continue building practical cybersecurity projects.
+
+- 
+## 📖 Reference
+
+This lab setup was completed by following the NetworkWalks cybersecurity lab instructions.
+
+---
+
+**Learning by doing. Investigating by understanding.**
+
