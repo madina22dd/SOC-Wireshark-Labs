@@ -1,79 +1,109 @@
-# SOC-Wireshark-Labs
-Six hands-on SOC Wireshark labs completed during my cybersecurity internship.
-Network Traffic Analysis & SOC Investigations
 
-Overview
 
-This repository showcases my practical experience in network traffic analysis and security investigations using Wireshark.
+# 🛡️ Cybersecurity Lab Setup
+### Kali Linux | Oracle VirtualBox | NAT Network
 
-I completed six hands-on investigations involving network traffic inspection, suspicious communication, TCP analysis, exposed credentials, and identifying potentially malicious activity.
+## 📌 Project Overview
 
-The purpose of this project was to develop practical skills in analyzing network traffic, recognizing suspicious behavior, and understanding how packet analysis supports Security Operations Center (SOC) operations.
+This project documents the setup and configuration of a cybersecurity lab using **Kali Linux** and **Oracle VirtualBox**.
 
-Tools & Technologies
+The lab provides a virtual environment for exploring cybersecurity tools, practicing Linux commands, and developing practical networking skills.
 
-- Wireshark — Network protocol analyzer used to capture and inspect packets.
-- TCP/IP — Understanding network communication and transport protocols.
-- HTTP — Examining web traffic and identifying unencrypted information.
-- NetworkWalks — Practical network investigation environment.
+---
 
-Practical Investigations
+## 🎯 Project Objectives
 
-1. Attacker IP Identification
+- Install and configure Kali Linux in Oracle VirtualBox.
+- Understand virtualization and virtual machine networking.
+- Configure a NAT Network.
+- Set up the virtual lab environment.
+- Prepare the environment for practical cybersecurity exercises.
 
-Investigated network traffic to identify the IP address associated with suspicious activity.
+---
 
-Skills practiced: IP address analysis, packet inspection, traffic investigation.
+## 🧰 Tools & Technologies
 
-2. TCP Stream Analysis — Part 1
+| Tool | Purpose |
+|---|---|
+| Kali Linux | Cybersecurity operating system |
+| Oracle VirtualBox | Virtualization platform |
+| NAT Network | Virtual network configuration |
 
-Examined TCP communication to understand how data is exchanged between network endpoints.
+---
 
-Skills practiced: TCP stream analysis, network communication analysis.
+## 🖥️ Lab Environment
 
-3. TCP Stream Analysis — Part 2
+| Component | Configuration |
+|---|---|
+| Virtualization Software | Oracle VirtualBox |
+| Virtual Machine | Kali Linux |
+| Network Mode | NAT Network |
+| Network Subnet | 10.0.0.0/24 |
+| Kali Linux IP | 10.0.0.2/24 |
 
-Continued investigating TCP streams to understand communication patterns and examine transmitted data.
+---
 
-Skills practiced: TCP analysis, packet inspection, traffic interpretation.
+## ⚙️ Lab Setup & Configuration
 
-4. HTTP Plain Text Credentials
+### 1. Oracle VirtualBox Setup
 
-Investigated HTTP traffic to understand how sensitive information can be exposed when transmitted without encryption.
+Oracle VirtualBox was installed and configured to create a virtual machine environment.
 
-Skills practiced: HTTP traffic analysis, plaintext data inspection, security awareness.
+### 2. Kali Linux Installation
 
-5. Brute Force Attacker Investigation
+Kali Linux was installed as a virtual machine inside Oracle VirtualBox.
 
-Investigated network activity associated with a brute-force attack scenario.
+### 3. NAT Network Configuration
 
-Skills practiced: Suspicious traffic analysis, attack behavior recognition, security investigation.
+A NAT Network was created and configured in VirtualBox to provide network connectivity to the Kali Linux virtual machine.
 
-6. Call Scammer Investigation
+### 4. Virtual Machine Configuration
 
-Analyzed network traffic in an investigation scenario involving a call scammer.
+The Kali Linux virtual machine was connected to the configured NAT Network.
 
-Skills practiced: Packet analysis, communication investigation, identifying suspicious activity.
+---
 
-Skills Developed
+## 📸 Screenshots & Evidence
 
-- Network traffic analysis
-- Packet inspection using Wireshark
-- TCP stream investigation
-- IP address identification
-- HTTP traffic inspection
-- Recognition of suspicious network activity
-- Understanding credential exposure
-- Basic security investigation and documentation
+### 1. VirtualBox Setup
+![VirtualBox Setup](screenshots/virtualbox-installation.png)
 
-Key Learning Outcomes
+### 2. Kali Linux Virtual Machine
+![Kali Linux VM](screenshots/kali-vm.png)
 
-Through these practical investigations, I developed a better understanding of how network traffic can reveal suspicious activity and provide useful evidence during security investigations.
+### 3. Kali Linux Desktop
+![Kali Linux Desktop](screenshots/kali-desktop.png)
 
-I also gained practical experience using Wireshark to examine network communications and connect networking concepts with cybersecurity operations.
+### 4. NAT Network Configuration
+![NAT Network](screenshots/nat-network.png)
 
-Project Purpose
+### 5. Virtual Machine Network Settings
+![Network Settings](screenshots/network-settings.png)
 
-This project represents my ongoing development in cybersecurity, particularly in network security monitoring and SOC analysis.
+---
 
-Learning by doing. Investigating by understanding.
+## 📚 Skills Practiced
+
+- Linux installation and configuration
+- Virtualization
+- Virtual machine management
+- NAT Network configuration
+- Basic networking concepts
+- Cybersecurity lab environment setup
+
+---
+
+## 🔍 Challenges & Lessons Learned
+
+During this project, I worked on configuring the virtual machine and setting up the NAT Network.
+
+I gained practical experience with virtualization, network configuration, and preparing a Linux-based environment for cybersecurity practice.
+
+---
+
+## 🚀 Next Steps
+
+- Explore cybersecurity tools available in Kali Linux.
+- Practice network traffic analysis using Wireshark.
+- Perform hands-on networking exercises.
+- Continue building practical cybersecurity projects.
